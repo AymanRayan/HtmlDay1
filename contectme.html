@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact Me
+        </title>
+    </head>
+    <body>
+        <form action="tankyou.html" method="get">
+        <table width="300px" border="2px">
+            <caption>Contact me Form</caption>
+            <tr>
+                <th colspan="2">Contact me</th>
+            </tr>
+            <tr>
+                <td>Your Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Your opinion on the website:</td>
+                <td>
+                    <input type="radio" name="opinion" value="Very good" id="1"><label for="1">Very good</label><br> 
+                    <input type="radio" name="opinion" value="Good" id="1"><label for="1">Good</label><br>
+                    <input type="radio" name="opinion" value="fair" id="1"><label for="1">Fair</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Marital status</td>
+                <td>
+                    <select name="status" >
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="other" selected="selected">Other</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td>You Know us from</td>
+                <td>
+                    <select name="status" multiple >
+                        <option value="internet">Internet</option>
+                        <option value="friend">Friend</option>
+                        <option value="search engine">Search engine</option>
+                        <option value="other" selected="selected">Other</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Mail:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Subject:</td>
+                <td><input type="text" name="subject"></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><textarea name="message" id="" cols="30" rows="1"></textarea></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" name=""submit></th>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
