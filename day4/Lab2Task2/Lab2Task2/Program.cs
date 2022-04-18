@@ -30,14 +30,14 @@ namespace Lab2Task2
             {
                 if(check == 0)
                 {
-                    x1 = x2 = -b / (2 * a);
+                    x1 = x2 = (-1 * b) / (2 * a);
                     message = $"x1 = {x1} \nx2 = {x2}";
                 }
                 else
                 {
                     double real, img;
-                    real = -b / (2 * a);
-                    img = Math.Sqrt(check * -1);
+                    real = -1 * b * (0.5 * a);
+                    img = Math.Sqrt(check * -1) / (2 * a);
 
                     message = $"x1 ={real} + {img}i. \nx2 ={real} - {img}i";
 
