@@ -1,0 +1,16 @@
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.AssemblyReference.cache
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\refint\ConsoleApp1.dll
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
+E:\Web Development\.Net iTi\Labs\day3\ConsoleApp1\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll

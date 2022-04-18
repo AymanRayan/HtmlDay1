@@ -1,0 +1,16 @@
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\bin\Debug\net5.0\Lab2Task2.exe
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\bin\Debug\net5.0\Lab2Task2.deps.json
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\bin\Debug\net5.0\Lab2Task2.runtimeconfig.json
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\bin\Debug\net5.0\Lab2Task2.runtimeconfig.dev.json
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\bin\Debug\net5.0\Lab2Task2.dll
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\bin\Debug\net5.0\Lab2Task2.pdb
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.csproj.AssemblyReference.cache
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.AssemblyInfoInputs.cache
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.AssemblyInfo.cs
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.csproj.CoreCompileInputs.cache
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.dll
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\refint\Lab2Task2.dll
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.pdb
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\Lab2Task2.genruntimeconfig.cache
+E:\Web Development\.Net iTi\Labs\day4\Lab2Task2\Lab2Task2\obj\Debug\net5.0\ref\Lab2Task2.dll
