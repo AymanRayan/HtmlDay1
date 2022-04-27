@@ -1,0 +1,16 @@
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\bin\Debug\net5.0\Lab4.exe
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\bin\Debug\net5.0\Lab4.deps.json
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\bin\Debug\net5.0\Lab4.runtimeconfig.json
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\bin\Debug\net5.0\Lab4.runtimeconfig.dev.json
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\bin\Debug\net5.0\Lab4.dll
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\bin\Debug\net5.0\Lab4.pdb
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.csproj.AssemblyReference.cache
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.AssemblyInfoInputs.cache
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.AssemblyInfo.cs
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.csproj.CoreCompileInputs.cache
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.dll
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\refint\Lab4.dll
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.pdb
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\Lab4.genruntimeconfig.cache
+E:\Web Development\.Net iTi\Labs\day6\Lab4\Lab4\obj\Debug\net5.0\ref\Lab4.dll
