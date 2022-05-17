@@ -10,7 +10,7 @@ function logIn(){
         alert("Welcome login Success");
     }
 }
-//logIn();
+logIn();
 
 //part1 Lab2 Calc
 function Calc(){
@@ -51,7 +51,7 @@ function doOperant(first,secound,op){
     }
     return result
 }
-//Calc();
+Calc();
 
 
 //Part1 Lab1
@@ -70,7 +70,7 @@ for(let j = 0; j < numbers.length; j++){
 average = sum / numbers.length;
 alert(`The sum of these numbers is ${sum} ,The Average of them is ${average}`);
 }
-//sum();
+sum();
 
 //part2 Lab2 phonebook different from the lecture.
 let phonebook = {
@@ -107,7 +107,7 @@ function theDirectory(){
          }
     }while(true);
 }
-//theDirectory();
+theDirectory();
 
 //part2 Bonus
 function areaCala(){
@@ -182,4 +182,4 @@ function Ellipse(){
     let area = 3.14 * 0.25 * minor * major;
     alert(`Area for the Ellipse with minor and major axis are ${minor} ,${major} is ${area}m2`);
 }
-//areaCala()
+areaCala()

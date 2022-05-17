@@ -20,13 +20,13 @@ namespace lab8
             if (choose == 1)
             {
                 Employee employee = fillEmpData();
-                print(employee);
+                employee.printData();
                 theApp();
             }
             else if (choose == 2)
             {
                 Customer customer = fillCusData();
-                print(customer);
+                customer.printData();
                 theApp();
             }
             else
@@ -94,10 +94,10 @@ namespace lab8
             }
             return cus;
         }
-        static void print(Person pe)
-        {
-            pe.printData();
-        }
+        //static void print(Person pe)
+       // {
+           // pe.printData();
+        //}
     }
     class Person
     {
@@ -197,5 +197,6 @@ namespace lab8
             Console.WriteLine($"The Customer's Account Number = {accountNumber}");
         }
     }
+
 }
 
