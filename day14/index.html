@@ -1,17 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 3 JavaScript</title>
-    
+    <title>Lab 4 JavaScript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>
-        Lab 3 JavaScript
+        Lab 4 JavaScript
     </h1>
+    <div id="task1">
+        <form id="myForm" onsubmit="return validate()">
+            <input type="text" id="userName" style="width:100%;" placeholder="Username"><br>
+            <input type="password" id="password" style="width:100%;" placeholder="password"><br>
+            <input type="submit" value="LOGIN" style="background-color:blue; color:white; width: 100%; "><br>
+            <div id="message">
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div id="task2">
+        <table>
+            <tbody id="list"></tbody>
+        </table>
+        <form id="todo" onsubmit="return toDo()">
+            <Label for="add">Task</Label>
+            <input type="text" id="add" placeholder="Task name">
+            <input type="submit" value="Add">
+        </form>
+    </div>
+    <script>
+        function toDo() {
+            let newTask = document.getElementById("add");
+            let list = document.getElementById("list");
+            let taskrow = document.createElement("tr");
+            let taskdata = document.createElement("td");
+            taskdata.innerHTML = `I have toDo ${newTask.value}`;
+            let actions = document.createElement("td");
+            let dBtn = document.createElement("button");
+            dBtn.setAttribute("id","delete");
+            dBtn.innerHTML="❎";
+            let cBtn = document.createElement("button");
+            cBtn.setAttribute("id","done");
+            cBtn.innerHTML="✅";
+            actions.appendChild(dBtn);
+            actions.appendChild(cBtn);
+            taskrow.append(taskdata);
+            taskrow.append(actions);
+            list.append(taskrow);
+            //cBtn.onmousedown= d();
+            return false;
+        }
+        let cBtn = document.getElementById("done");
+        //cBtn.onmousedown = d();
 
-    <script src="index.js"></script>
+
+        function d() {
+            console.log("here");
+            return false;
+        }
+
+        function validate() {
+            let message;
+            let userName = document.getElementById('userName');
+            let password = document.getElementById('password');
+            let task1 = document.getElementById("task1");
+            let parent = document.getElementById("message");
+            if (userName.value != "admin" || password.value != "123") {
+                userName.style.borderColor = 'red';
+                password.style.borderColor = 'red';
+                task1.style.border = "2px solid red";
+                message = document.createElement("h3");
+                message.innerHTML = "Not Registered";
+
+            } else {
+                userName.style.borderColor = 'green';
+                password.style.borderColor = 'green';
+                task1.style.border = '2px solid green';
+                message = document.createElement("h3");
+                message.innerHTML = "Welcome";
+            }
+            if (parent.hasChildNodes()) {
+                parent.innerHTML = "";
+                parent.appendChild(message);
+            } else {
+                parent.appendChild(message);
+            }
+            return false;
+        }
+    </script>
 </body>
+
 </html>
