@@ -34,29 +34,51 @@
         </form>
     </div>
     <script>
+        let id = 0;
         function toDo() {
+            
             let newTask = document.getElementById("add");
             let list = document.getElementById("list");
             let taskrow = document.createElement("tr");
+            taskrow.setAttribute("id" ,id++);
             let taskdata = document.createElement("td");
             taskdata.innerHTML = `I have toDo ${newTask.value}`;
             let actions = document.createElement("td");
             let dBtn = document.createElement("button");
-            dBtn.setAttribute("id","delete");
+            dBtn.value = id++;
+            // dBtn.setAttribute("id",id++ );
             dBtn.innerHTML="❎";
             let cBtn = document.createElement("button");
-            cBtn.setAttribute("id","done");
+            cBtn.value = id++;
+            // cBtn.setAttribute("id",id++ );
             cBtn.innerHTML="✅";
             actions.appendChild(dBtn);
             actions.appendChild(cBtn);
             taskrow.append(taskdata);
             taskrow.append(actions);
             list.append(taskrow);
-            //cBtn.onmousedown= d();
+            cBtn.onclick=done;
+            dBtn.onclick=del;
+            function del(){
+                let el = document.getElementById(dBtn.value - 1);
+                el.remove();
+                console.log("hennaaa");
+                return false;
+            }
+            function done(){
+                let element = document.getElementById(cBtn.value - 2);
+                element.style.background="green";
+                console.log(cBtn.value -2);
+                console.log("here");
+                return false;
+            }
+            
+
             return false;
         }
-        let cBtn = document.getElementById("done");
-        //cBtn.onmousedown = d();
+        
+        
+        
 
 
         function d() {
