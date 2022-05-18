@@ -24,7 +24,7 @@
     </div>
     <hr>
     <div id="task2">
-        <table>
+        <table width="100%">
             <tbody id="list"></tbody>
         </table>
         <form id="todo" onsubmit="return toDo()">
@@ -46,11 +46,9 @@
             let actions = document.createElement("td");
             let dBtn = document.createElement("button");
             dBtn.value = id++;
-            // dBtn.setAttribute("id",id++ );
             dBtn.innerHTML="❎";
             let cBtn = document.createElement("button");
             cBtn.value = id++;
-            // cBtn.setAttribute("id",id++ );
             cBtn.innerHTML="✅";
             actions.appendChild(dBtn);
             actions.appendChild(cBtn);
@@ -67,8 +65,7 @@
             }
             function done(){
                 let element = document.getElementById(cBtn.value - 2);
-                element.style.background="green";
-                console.log(cBtn.value -2);
+                element.style.background="#B4FF9F";
                 console.log("here");
                 return false;
             }

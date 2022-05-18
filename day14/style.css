@@ -9,3 +9,9 @@ input{
 #message{
    text-align: center;
 }
+#todo{
+  text-align: center;
+}
+tr{
+  text-align: center;
+}
