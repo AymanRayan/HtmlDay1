@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Lab 5 JavaScript Task2
+    </h1>
+<section id="task2"> 
+    <h2 id="clock">8:10:45</h2>
+    <form id="alarm" onsubmit="return setAlarm()">
+        <h3>Set Alarm <h3>
+        <input type="number" id="hour" placeholder="00">
+        <input type="number" id="min" placeholder="00">
+        <input type="number" id="sec" placeholder="00">
+        <select id="period">
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+        </select>
+        <br>
+        <input type="submit" value="Set Alarm">
+        <button id = "clear">Clear</button>
+        <h5 id="al"></h5>
+    </form>
+</section> 
+
+    <script>
+      setInterval(showTime,1000);  
+    function showTime(){
+        let time = new Date();
+        let hr = time.getHours();
+        let min =time.getMinutes();
+        let sec = time.getSeconds();
+        let per = "AM";
+        if(hr < 10){
+            hr = "0" + hr ;
+        }
+        if(min < 10){
+            min = "0" + min;
+        }
+        if(sec < 10){
+            sec = "0" + sec;
+        }
+        if (hr > 12){
+            hr -= 12;
+            per = "PM";
+        }
+        if (hr == 0){
+            hr = 12;
+            per = "AM";
+        }
+        let now = hr + ":" + min + ":" + sec + per;
+        document.getElementById("clock").innerHTML=now;
+        return now;
+    }
+    showTime();
+    let at = document.getElementById("al");
+    function setAlarm(){
+        let wHour = document.getElementById("hour");
+        let wMinut = document.getElementById("min");
+        let wSec = document.getElementById("sec");
+        let wperiod = document.getElementById("period");
+        at.innerHTML = wHour.value +":" + wMinut.value +":" +wSec.value +wperiod.value;
+        return false;
+    }
+    function check(){
+        let n = showTime();
+        if(at.innerHTML == n){
+            alert("WAKE UPPPPP!!!!");
+        }
+    }
+    setInterval(check,1000);
+    let clear=document.getElementById("clear");
+    clear.addEventListener("click",(e)=>{
+         e.preventDefault();
+         at.innerHTML="";
+    })
+    </script>
+    
+</body>
+</html>
