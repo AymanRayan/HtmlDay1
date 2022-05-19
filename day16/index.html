@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        Lab 6 JavaScript
+    </h1>
+    <div id="task1">
+        <form id="myForm" action="./index2.html" onsubmit="return validate()">
+            <input type="text" id="email" style="width:100%;" placeholder="Email"><br>
+            <input type="password" id="password" style="width:100%;" placeholder="password"><br>
+            <input type="submit" id="submit" value="LOGIN" style="background-color:blue; color:white; width: 100%; "><br>
+            <div id="message">
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div id="task2">
+        <table width="100%">
+            <tbody id="list"></tbody>
+        </table>
+        <form id="todo" onsubmit="return toDo()">
+            <Label for="add">Task</Label>
+            <input type="text" id="add" placeholder="Task name">
+            <input type="submit" value="Add">
+        </form>
+    </div>
+    <script>
+        let id = 0;
+        let taskNo = 0;
+        function toDo() {
+            let newTask = document.getElementById("add");
+            localStorage.setItem(`Task${taskNo++}`,newTask.value);
+            let list = document.getElementById("list");
+            let taskrow = document.createElement("tr");
+            taskrow.setAttribute("id" ,id++);
+            let taskdata = document.createElement("td");
+            taskdata.innerHTML = `I have toDo ${newTask.value}`;
+            let actions = document.createElement("td");
+            let dBtn = document.createElement("button");
+            dBtn.value = id++;
+            dBtn.innerHTML="❎";
+            let cBtn = document.createElement("button");
+            cBtn.value = id++;
+            cBtn.innerHTML="✅";
+            actions.appendChild(dBtn);
+            actions.appendChild(cBtn);
+            taskrow.append(taskdata);
+            taskrow.append(actions);
+            list.append(taskrow);
+            cBtn.onclick=done;
+            dBtn.onclick=del;
+            function del(){
+                let el = document.getElementById(dBtn.value - 1);
+                el.remove();
+                console.log("hennaaa");
+                return false;
+            }
+            function done(){
+                let element = document.getElementById(cBtn.value - 2);
+                element.style.background="#B4FF9F";
+                console.log("here");
+                return false;
+            }
+            
+
+            return false;
+        }
+     
+        function validate() {
+            let message = document.createElement("p");
+            let errors = "";
+            let email = document.getElementById('email');
+            let password = document.getElementById('password');
+            let task1 = document.getElementById("task1");
+            let parent = document.getElementById("message");
+            if (!email.value) {
+                email.style.borderColor = 'red';
+                task1.style.border = "2px solid red";
+                errors += "_Email is Required<br>";
+            } else if(!email.value.match(/@[a-zA-Z0-9-]./g)) {
+                email.style.borderColor = 'red';
+                task1.style.border = "2px solid red";
+                errors += "_Enter a Valid Email<br>";
+            }else{
+                email.style.borderColor = 'green';
+            }
+            if(!password.value){
+                password.style.borderColor = 'red';
+                task1.style.border = "2px solid red";
+                errors += "_Password is Required<br>";
+            }else if (password.value.length < 8){
+                password.style.borderColor = 'red';
+                task1.style.border = "2px solid red";
+                errors += "_Password must be greater than 8 char!<br>";
+            }else if(!password.value.match(/[ A-Za-z]/g)){
+                password.style.borderColor = 'red';
+                task1.style.border = "2px solid red";
+                errors += "_Password must contains small and capital char!<br>";
+            }else if(!password.value.match(/[0-9]/g)){
+                password.style.borderColor = 'red';
+                task1.style.border = "2px solid red";
+                errors += "_Password must contains at least one number!<br>";
+            }else{
+                password.style.borderColor = 'green';
+            }
+            message.innerHTML=errors;
+            if (parent.hasChildNodes()) {
+                parent.innerHTML = "";
+                parent.appendChild(message);
+            } else {
+                parent.appendChild(message);
+            }
+            if(!errors){
+                return true
+            }else{
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>

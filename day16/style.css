@@ -1,0 +1,17 @@
+#task1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+  margin: 4px;
+}
+#message{
+   text-align: center;
+}
+#todo{
+  text-align: center;
+}
+tr{
+  text-align: center;
+}
