@@ -35,13 +35,17 @@
     </div>
     <script>
         let id = 0;
-        let taskNo = 0;
+        let nTas =[];
         function toDo() {
             let newTask = document.getElementById("add");
-            localStorage.setItem(`Task${taskNo++}`,newTask.value);
             let list = document.getElementById("list");
+            
+            
+            nTas.push({"id":++id, "task":newTask.value});
+            localStorage.setItem('Tasks',JSON.stringify(nTas));
+            
+
             let taskrow = document.createElement("tr");
-            taskrow.setAttribute("id" ,id++);
             let taskdata = document.createElement("td");
             taskdata.innerHTML = `I have toDo ${newTask.value}`;
             let actions = document.createElement("td");
@@ -49,29 +53,35 @@
             dBtn.value = id++;
             dBtn.innerHTML="❎";
             let cBtn = document.createElement("button");
-            cBtn.value = id++;
             cBtn.innerHTML="✅";
+
+
             actions.appendChild(dBtn);
             actions.appendChild(cBtn);
             taskrow.append(taskdata);
             taskrow.append(actions);
             list.append(taskrow);
-            cBtn.onclick=done;
-            dBtn.onclick=del;
-            function del(){
-                let el = document.getElementById(dBtn.value - 1);
-                el.remove();
-                console.log("hennaaa");
-                return false;
-            }
-            function done(){
-                let element = document.getElementById(cBtn.value - 2);
-                element.style.background="#B4FF9F";
-                console.log("here");
-                return false;
-            }
-            
 
+
+            cBtn.addEventListener('click',(e)=>{
+                let p = cBtn.parentElement;
+                p.style.background="#B4FF9F";
+                p.parentElement.style.background="#B4FF9F";
+            });
+            let Taskss =localStorage.getItem('Tasks');
+            let data = JSON.parse(Taskss);
+            dBtn.addEventListener('click',(e)=> {
+                dBtn.parentElement.parentElement.remove();
+                let final =[];
+                for(let i in data){
+                final.push(data[i]);
+                }
+                let index = final.findIndex(f => f.id == dBtn.value );
+                if(index != -1 ){
+                    final.splice(index,1);
+                    localStorage.setItem('Tasks',JSON.stringify(final));
+                }
+            });
             return false;
         }
      

@@ -5,8 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome From inside</h1>
+    <h1>Welcome From Inside</h1>
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Avatar</th>
+        </thead>
+        <tfoot>
+            <th>ID</th>
+            <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Avatar</th>
+        </tfoot>
+        <tbody id="data">
+
+        </tbody>
+    </table>
 </body>
+<script>
+    let header = document.getElementById("bar");
+    let tRHead = document.createElement('tr');
+    let table = document.getElementById("data");
+    let fet = fetch("https://reqres.in/api/users?page=2");
+    
+    fet.then(res => res.json()).then(d => {
+       let allData = d.data;
+       let va =Object.values(allData);
+       va.forEach(element => {
+           let tr = document.createElement("tr");
+           let data=Object.values(element);
+           data.forEach(d => {
+               let con = d.toString();
+               let td = document.createElement("td");
+               if(con.includes("https")){
+                 let img=document.createElement("img");
+                 img.setAttribute("src",con);
+                 td.append(img);
+               }else{
+                td.innerHTML=con;
+               }
+               tr.append(td);
+           })
+           table.append(tr);
+       });
+    });
+    
+</script>
 </html>
