@@ -1,0 +1,16 @@
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\bin\Debug\net5.0\lab2 VS.exe
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\bin\Debug\net5.0\lab2 VS.deps.json
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\bin\Debug\net5.0\lab2 VS.runtimeconfig.json
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\bin\Debug\net5.0\lab2 VS.runtimeconfig.dev.json
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\bin\Debug\net5.0\lab2 VS.dll
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\bin\Debug\net5.0\lab2 VS.pdb
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.csproj.AssemblyReference.cache
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.AssemblyInfoInputs.cache
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.AssemblyInfo.cs
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.csproj.CoreCompileInputs.cache
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.dll
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\refint\lab2 VS.dll
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.pdb
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\lab2 VS.genruntimeconfig.cache
+E:\Web Development\.Net iTi\Labs\day19 ITI\lab2 VS\lab2 VS\obj\Debug\net5.0\ref\lab2 VS.dll

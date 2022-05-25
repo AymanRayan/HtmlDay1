@@ -37,7 +37,7 @@ li{
 #design{
     padding: 100px;
 }
-@media screen and (min-width:400px){
+@media (max-width: 400px){
     .img1{
         display: flex;
         flex:50%;

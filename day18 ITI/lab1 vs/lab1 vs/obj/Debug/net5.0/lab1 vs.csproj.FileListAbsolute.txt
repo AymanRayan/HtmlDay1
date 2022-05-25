@@ -1,0 +1,16 @@
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\bin\Debug\net5.0\lab1 vs.exe
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\bin\Debug\net5.0\lab1 vs.deps.json
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\bin\Debug\net5.0\lab1 vs.runtimeconfig.json
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\bin\Debug\net5.0\lab1 vs.runtimeconfig.dev.json
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\bin\Debug\net5.0\lab1 vs.dll
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\bin\Debug\net5.0\lab1 vs.pdb
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.csproj.AssemblyReference.cache
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.AssemblyInfoInputs.cache
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.AssemblyInfo.cs
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.csproj.CoreCompileInputs.cache
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.dll
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\refint\lab1 vs.dll
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.pdb
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\lab1 vs.genruntimeconfig.cache
+E:\Web Development\.Net iTi\Labs\day18 ITI\lab1 vs\lab1 vs\obj\Debug\net5.0\ref\lab1 vs.dll
