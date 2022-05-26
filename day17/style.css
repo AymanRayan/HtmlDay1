@@ -18,11 +18,7 @@ h4{
     font-size: 36px;
     text-align: center;
 }
-#se2{
-    background-image: url("/assets/Bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 h5{
     font-weight: 600;
     font-size: 22px;
@@ -34,19 +30,5 @@ h3{
 li{
   list-style-type: none;  
 }
-#design{
-    padding: 100px;
-}
-@media (max-width: 400px){
-    .img1{
-        display: flex;
-        flex:50%;
-    }
-    *,body{
-        margin: 4px;
-    }
-   #se2{
-      display: flex;
-      flex:50%;
-   }    
-}
+
+
