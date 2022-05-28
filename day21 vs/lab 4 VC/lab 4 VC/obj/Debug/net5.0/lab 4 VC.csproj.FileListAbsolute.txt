@@ -1,0 +1,16 @@
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\bin\Debug\net5.0\lab 4 VC.exe
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\bin\Debug\net5.0\lab 4 VC.deps.json
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\bin\Debug\net5.0\lab 4 VC.runtimeconfig.json
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\bin\Debug\net5.0\lab 4 VC.runtimeconfig.dev.json
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\bin\Debug\net5.0\lab 4 VC.dll
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\bin\Debug\net5.0\lab 4 VC.pdb
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.csproj.AssemblyReference.cache
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.AssemblyInfoInputs.cache
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.AssemblyInfo.cs
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.csproj.CoreCompileInputs.cache
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.dll
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\refint\lab 4 VC.dll
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.pdb
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\lab 4 VC.genruntimeconfig.cache
+E:\Web Development\.Net iTi\Labs\day21 vs\lab 4 VC\lab 4 VC\obj\Debug\net5.0\ref\lab 4 VC.dll
