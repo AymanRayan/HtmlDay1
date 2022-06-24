@@ -1,0 +1,14 @@
+.today{
+    width:85% !important;
+    border-radius: 8%;
+
+}
+.right-bar{
+    background-color: aquamarine;
+}
+.left-bar{
+    background-color: lightgoldenrodyellow;
+}
+.main{
+    border-radius: 3%;
+}

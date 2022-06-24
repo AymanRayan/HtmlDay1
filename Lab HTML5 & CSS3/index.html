@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 && CSS3 Lab1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+            </div>
+        </nav>
+        <!-- /navbar -->
+    </header>
+    <main class="row container-fluid main">
+        <!-- Lsidenav -->
+        <aside class="col-3 left-bar">
+            <p>side left</p>
+            <form onsubmit="return formSubmition();">
+                <input type="text" placeholder="Enter User Name" id="username"><br>
+                <button class ="btn btn-success" type="Submit">Submit</button>
+            </form>
+        </aside>
+        <!-- /Lsidenav -->
+        <!-- content -->
+        <article class="col-6">
+            <h4><strong>Today's</strong> HeadLines</h4>
+            <figure>
+                <img class="today"
+                    src="https://media.gettyimages.com/photos/joint-session-of-congress-meets-to-count-the-electoral-college-vote-picture-id84211317?k=20&m=84211317&s=612x612&w=0&h=5kUq_jfKue-6Lg6OD8FZoH4x1bJsDyiUAC3fbNe1Ck4="
+                    alt="">
+            </figure>
+            <figcaption>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rerum adipisci </p>
+            </figcaption>
+            <h4>Video</h4>
+            <iframe src="https://www.youtube.com/embed/eTe-p12U7lk" frameborder="0"></iframe>
+
+        </article>
+        <!-- /content -->
+        <!-- Rnavbar -->
+        <aside class="col-3 right-bar">
+            <p>side right</p>
+            <article id="message">
+
+            </article>
+        </aside>
+        <!-- /Rnavbar -->
+    </main>
+<footer>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/21/21601.png" alt="Logo" width="10%" height="7%" >
+          </a>
+        </div>
+      </nav>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
