@@ -89,12 +89,9 @@ h1{
 font-size: 48px;
 font-weight: 700;
 line-height: 56px;
-letter-spacing: 0em;
-text-align: left;
-
 }
 .container{
-    width:90%;
+    width:98%;
     margin: 0 auto;
 }
 .flex{
@@ -223,7 +220,7 @@ align-items: center;
 .provider::after{
     content: url("./assets/element\ \(1\).png");
     position: absolute;
-    right: -50px;
+    right: 0px;
     z-index: -1;
 }
 .download img, .download h2, .download p, .download button{
@@ -255,6 +252,23 @@ align-items: center;
 }
 .Readmore:hover{
     text-decoration: underline;
+}
+.latest{
+    position: relative;
+}
+.latest::before{
+    content: url("./assets/element\ \(1\).png");
+    position: absolute;
+    left:-800px;
+    top:-50px;
+    z-index: -1;
+}
+.latest::after{
+    content: url("./assets/element.png");
+    position: absolute;
+    top:-200px;
+    right: -50px;
+    z-index: -1;
 }
 
 /* responsive */
