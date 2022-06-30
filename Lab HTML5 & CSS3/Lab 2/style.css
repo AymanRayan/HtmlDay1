@@ -157,7 +157,6 @@ align-items: center;
     margin: 10px;
     padding: 20px;
     width: 350px;
-    height: 300px;
     border-radius: 20px;
     flex:25%;
     justify-content: space-between;
@@ -188,6 +187,9 @@ align-items: center;
     width: 200px;
     height: 56px;
     border-radius: 55px;
+}
+.btn-light:hover{
+    background-color: #ddd;
 }
 .service button {
     margin: 20px;
@@ -243,6 +245,16 @@ align-items: center;
      margin: 0 auto;
      width: 10%;
      background: #7D7987;
+}
+/* cards */
+.card .phCards{
+    overflow: hidden;
+}
+.Readmore{
+    color: #458FF6;
+}
+.Readmore:hover{
+    text-decoration: underline;
 }
 
 /* responsive */
